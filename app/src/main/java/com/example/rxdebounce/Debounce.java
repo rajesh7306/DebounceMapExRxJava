@@ -38,6 +38,11 @@ public class Debounce extends AppCompatActivity {
         setContentView(R.layout.activity_debounce);
         unbinder = ButterKnife.bind(this);
 
+        /**
+         * Here, we have used debounce(300, TimeUnit.MILLISECONDS)
+         * which means the query will be emitted every 300 milli seconds
+         */
+
         disposable.add(
                 RxTextView.textChangeEvents(inputSearch)
                         .skipInitialValue()
