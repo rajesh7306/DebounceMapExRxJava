@@ -46,6 +46,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         unbinder = ButterKnife.bind(this);
+        
+         /**
+         * here buffer(3) is used
+         * it emits 3 integers at a time.
+         */
 
         /**
          * here buffer(3) is used
