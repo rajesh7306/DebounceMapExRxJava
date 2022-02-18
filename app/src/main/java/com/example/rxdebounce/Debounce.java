@@ -81,6 +81,8 @@ public class Debounce extends AppCompatActivity {
         unbinder.unbind();
         disposable.clear();
     }
+
+
 }
 
 
